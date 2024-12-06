@@ -1,0 +1,57 @@
+.font{
+	font-family: "Great Vibes", cursive;
+	font-weight: 600;
+	font-style: normal;
+	letter-spacing: 3px;
+  }
+
+body {
+	display: flex;
+	justify-content: center; /* Horizontal alignment */
+	align-items: center;    /* Vertical alignment */
+	height: 100vh;          /* Full viewport height */
+	margin: 0;              /* Remove default margins */
+  }
+
+.textbox {
+	margin: 12px;
+	width: 75%;
+	height: 25px;
+	border-radius: 15px;
+}
+
+.button{
+	border-radius: 100px;
+	padding: 12px;
+	color: black;
+	background-color: rgb(236, 136, 158);
+	font-weight: 00;
+}
+.button2{
+	border-radius: 100px;
+	padding: 2px;
+	color: black;
+	font-weight: 200;
+}
+.ctr-blk {
+	width: 400px;
+	height: 60px;
+	background-color: rgb(0, 118, 165);
+  /* border-style: solid;
+	border-color: black;
+	border-width: 2px; */
+}
+.border{
+	border-style: solid;
+	border-color: black;
+	border-width: 12px;
+}
+.ctr-blk2 {
+	width: 400px;
+	height: 30px;
+	/* border-bottom: 1px;
+	border-color: black;
+	border-style: solid; */
+	padding-top: 5px;
+	background-color: rgb(141, 214, 243);
+  }
